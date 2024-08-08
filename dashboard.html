@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Manager</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Add Products</h1>
+    <form id="product-form">
+        <input type="text" placeholder="Product Name" id="product-name" required />
+        <input type="number" placeholder="Product Price" id="product-price" required />
+        <input type="text" placeholder="Product Detail" id="product-detail" required />
+        <input type="file" id="product-image" />
+        <button type="submit">Add Product</button>
+    </form>
+    <div class="allproducts"></div>
+    <script type="module" src="./app.js"></script>
+</body>
+</html>
